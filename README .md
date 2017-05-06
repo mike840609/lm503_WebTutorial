@@ -8,10 +8,11 @@
 
 ## Installation
 - Create a virtual environment for a project: 
-
 ```bash
-$ cd /personal_website_path/
-$ python -m venv myvenv
+  
+  $ cd desktop/lm503_WebTutorial/
+  
+  $ python -m venv myvenv
 ```
 
  ##### Virtualenv will isolate your Python/Django setup on a per-project basis.
@@ -22,17 +23,25 @@ $ python -m venv myvenv
     osx : 
     $ source\myvenv\bin\activate
 ```
-- Installing Django:
+- Generate pip requirements.txt:
 ```bash
-    $ pip install --upgrade pip
+
+    (optional)
+    $ pip install --upgrade pip 
     $ pip install django~=1.10.0
     $ pip install django-toolbelt
     $ pip install dj-database-url gunicorn whitenoise
-
     $ pip freeze > requirements.txt
+    
 
 ```
 
+- Installing requirements.txt:
+```bash
+
+    $ pip install -r requirements.txt
+
+```
 
 - Heroku Deployment :
 ```bash
