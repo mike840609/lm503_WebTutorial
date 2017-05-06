@@ -1,6 +1,7 @@
  ## Demo
- Personal blog using Django & Heroku 
- Demo : https://chuntsai.herokuapp.com/
+ Deploying django project on heroku
+  
+ Demo : https://django402401606.herokuapp.com/
 
 ## Requirements
 - python 3.5
@@ -42,7 +43,7 @@ $ python -m venv myvenv
    
    $ rm -rf .git (osx)    
    $ rmdir /s/q .git(ms-dos)
-   
+
    $ git init 
    $ git add .
    $ git commit -m origin master
