@@ -47,13 +47,16 @@
 ```bash
   
    $ heroku create 'heroku_name'
+
+
+   $ heroku git:remote -a 'your heroku project_name'
    
    $ rm -rf .git (osx)    
    $ rmdir /s/q .git(ms-dos)
 
    $ git init 
    $ git add .
-   $ git commit -m origin master
+   $ git commit -m "initialize"
    $ git push heroku master
 ```
 
