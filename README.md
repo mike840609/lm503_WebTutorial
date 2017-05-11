@@ -1,6 +1,8 @@
  ## Demo
  Deploying django project on heroku
 
+video : https://www.youtube.com/watch?v=fDF14AMZixA&t
+
  Demo : https://django402401606.herokuapp.com/
 
 ## Requirements
